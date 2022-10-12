@@ -43,9 +43,9 @@ const TicTacToe = () => {
 	};
 
 	const handleClick = (num) => { 
-        if (!squares.includes(undefined)) {
-            message = 'draw';
-        }
+        // if (!squares.includes(undefined)) {
+        //     message = 'draw';
+        // }
 
         if (winner != null) {
             message = winner + ' is the winner!';
