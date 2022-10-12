@@ -1,0 +1,26 @@
+* {
+    font-size: 6vh;
+}
+
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+table td {
+    border: 0.1vh solid grey;
+    width: 20vw;
+    height: 20vh;
+}
+
+button {
+    height: 10vh;
+    width: fit-content;
+    margin-top: 5vh;   
+}
+
+p {
+   
+    margin-top: 0;
+}
